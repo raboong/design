@@ -1,0 +1,186 @@
+section {
+    width: 900px;
+    height: 850px;
+    background: rgb(255, 255, 255);
+    position: relative;
+}
+h2 {
+    font-size: 35px;
+    position: absolute;
+    top: 140px;
+    left: 20px;
+    color: #464646;
+}
+.item {
+    width: 200px;
+    /* border: 1px solid red; */
+    margin: 20px;
+    position: absolute;
+    top: 200px;
+}
+.photo01 {
+    width: 200px;
+    height: 200px;
+    background: url(img/img03.webp);
+    background-size: cover;
+}
+p[class=title] {
+    margin-top: 15px;
+    font-weight: bold;
+}
+p[class=text] {
+    margin-top: 5px;
+}
+/* 두번째 상자 */
+.item01 {
+    width: 200px;
+    /* border: 1px solid red; */
+    margin: 20px;
+    position: absolute;
+    top: 200px;
+    left: 220px;
+}
+.photo02 {
+    width: 200px;
+    height: 200px;
+    background: url(img/img09.webp) no-repeat right -60px;
+    background-size: cover;
+}
+p[class=title] {
+    margin-top: 15px;
+    font-weight: bold;
+}
+p[class=text] {
+    margin-top: 5px;
+}
+/* 세번째 상자 */
+.item02 {
+    width: 200px;
+    /* border: 1px solid red; */
+    margin: 20px;
+    position: absolute;
+    top: 200px;
+    left: 440px;
+}
+.photo03 {
+    width: 200px;
+    height: 200px;
+    background: url(img/img05.webp);
+    background-size: cover;
+}
+p[class=title] {
+    margin-top: 15px;
+    font-weight: bold;
+}
+p[class=text] {
+    margin-top: 5px;
+}
+/* 네번째 상자 */
+.item03 {
+    width: 200px;
+    /* border: 1px solid red; */
+    margin: 20px;
+    position: absolute;
+    top: 200px;
+    left: 660px;
+}
+.photo04 {
+    width: 200px;
+    height: 200px;
+    background: url(img/img08.webp);
+    background-size: cover;
+}
+p[class=title] {
+    margin-top: 15px;
+    font-weight: bold;
+}
+p[class=text] {
+    margin-top: 5px;
+}
+/* 다섯번째 상자 */
+.item04 {
+    width: 200px;
+    /* border: 1px solid red; */
+    margin: 20px;
+    position: absolute;
+    top: 500px;
+}
+.photo05 {
+    width: 200px;
+    height: 200px;
+    background: url(img/img10.webp) no-repeat left -150px;
+    background-size: cover;
+}
+p[class=title] {
+    margin-top: 15px;
+    font-weight: bold;
+}
+p[class=text] {
+    margin-top: 5px;
+}
+/* 여섯번째 상자 */
+.item05 {
+    width: 200px;
+    /* border: 1px solid red; */
+    margin: 20px;
+    position: absolute;
+    top: 500px;
+    left: 220px;
+}
+.photo06 {
+    width: 200px;
+    height: 200px;
+    background: url(img/img14.webp);
+    background-size: cover;
+}
+p[class=title] {
+    margin-top: 15px;
+    font-weight: bold;
+}
+p[class=text] {
+    margin-top: 5px;
+}
+/* 일곱번째 상자 */
+.item06 {
+    width: 200px;
+    /* border: 1px solid red; */
+    margin: 20px;
+    position: absolute;
+    top: 500px;
+    left: 440px;
+}
+.photo07 {
+    width: 200px;
+    height: 200px;
+    background: url(img/img07.webp);
+    background-size: cover;
+}
+p[class=title] {
+    margin-top: 15px;
+    font-weight: bold;
+}
+p[class=text] {
+    margin-top: 5px;
+}
+/* 여덟번째 상자 */
+.item07 {
+    width: 200px;
+    /* border: 1px solid red; */
+    margin: 20px;
+    position: absolute;
+    top: 500px;
+    left: 660px;
+}
+.photo08 {
+    width: 200px;
+    height: 200px;
+    background: url(img/img12.webp);
+    background-size: cover;
+}
+p[class=title] {
+    margin-top: 15px;
+    font-weight: bold;
+}
+p[class=text] {
+    margin-top: 5px;
+}

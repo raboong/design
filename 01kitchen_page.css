@@ -1,0 +1,174 @@
+section {
+    width: 900px;
+    height: 850px;
+    background: rgb(255, 255, 255);
+}
+.text {
+    position: relative;
+}
+.text p {
+    position: absolute;
+    top: 120px;
+    margin-left: 20px;
+    font-family: mice고딕;
+}
+.photo01 {
+    width: 420px;
+    height: 300px;
+    background: url(img/img05.webp) no-repeat center;
+    background-size: cover;
+    position: absolute;
+    top: 160px;
+    margin-left: 20px;
+}
+.photo02 {
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    background: url(img/img05.webp);
+    background-size: cover;
+    position: absolute;
+    top: 480px;
+    margin-left: 20px;
+}
+.photo03 {
+    width: 50px;
+    height: 50px;
+    background: url(img/img05.webp);
+    background-size: cover;
+    position: absolute;
+    top: 480px;
+    margin-left: 80px;
+}
+.text .text1 {
+    width: 400px;
+    position: absolute;
+    top: 560px;
+    font-size: 14px;
+    line-height: 1.6em;
+}
+/* 오른쪽에 있는 내용 */
+.text2 {
+    position: relative;
+}
+.text2 h3 {
+    position: absolute;
+    top: 160px;
+    left: 500px;
+}
+.text2 p {
+    position: absolute;
+    top: 190px;
+    left: 500px;
+    font-size: 13px;
+    color: #888; 
+}
+.text2 .text01 {
+    position: absolute;
+    top: 230px;
+    left: 500px;
+    font-size: 18px;
+    color: #464646;  
+}
+.text2 input[type=text] {
+    position: absolute;
+    top: 310px;
+    left: 500px;
+    padding: 5px;
+    border: 1px solid rgb(177, 177, 177);
+    border-radius: 3px;
+}
+.text2 .text02 {
+    position: absolute;
+    top: 280px;
+    left: 500px;
+    color: #464646;
+}
+.text2 button {
+    width: 370px;
+    position: absolute;
+    top: 360px;
+    left: 500px;
+    padding: 10px;
+    border: none;
+    background: #2c3c3f;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.text2 button:hover {
+    background: #607d82 ;
+    color:#464646 ;
+}
+.text2 .text1 {
+    width: 365px;
+    font-family: mice고딕;
+    font-size: 14px;
+    line-height: 1.6em;
+    position: absolute;
+    top: 450px;
+    left: 500px;
+}
+hr {
+    width: 365px;
+    position: absolute;
+    top: 605px;
+    left: 500px;
+}
+.text2 .text3 {
+    width: 365px;
+    font-family: mice고딕;
+    font-size: 14px;
+    line-height: 1.6em;
+    position: absolute;
+    top: 630px;
+    left: 500px;
+}
+#next {
+    position: absolute;
+    top: 120px;
+    right: 40px;
+    font-family: mice고딕;
+}
+div .photo1 img {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 760px;
+    left: 500px;
+}
+div .photo2 img {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 760px;
+    left: 540px;
+}
+div .photo3 img {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 760px;
+    left: 580px;
+}
+div .photo4 img {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 760px;
+    left: 620px;
+}
+div .icon img {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 450px;
+    right: 30px;
+}
+div .icon1 img {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 630px;
+    right: 30px;
+}

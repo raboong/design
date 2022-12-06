@@ -1,0 +1,163 @@
+section {
+    width: 900px;
+    height: 1200px;
+    background: rgb(255, 255, 255);
+}
+.item,.item1 {
+    position: relative;
+}
+.item h2 {
+    font-size: 35px;
+    position: absolute;
+    top: 140px;
+    margin-left: 20px;
+    color: #464646;
+}
+.text1 {
+    width: 380px;
+    margin-left: 20px;
+    position: absolute;
+    top: 225px;
+    font-family: mice고딕;
+    font-size: 14px;
+    line-height: 1.8em;
+}
+#photo {
+    width: 420px;
+    height: 300px;
+    background: url(img/img04.jpg) center;
+    background-size: cover;
+    /* border: 1px solid red; */
+    position: absolute;
+    top: 225px;
+    right: 20px;
+}
+
+/* FAQ */
+
+.item1 h2 {
+    font-size: 35px;
+    position: absolute;
+    top: 580px;
+    margin-left: 20px;
+    color: #464646;
+}
+.text2 {
+    width: 380px;
+    margin-left: 20px;
+    position: absolute;
+    top: 660px;
+    font-family: mice고딕;
+    font-size: 18px;
+    line-height: 2em;
+}
+.text3 {
+    width: 380px;
+    margin-left: 20px;
+    position: absolute;
+    top: 710px;
+    font-family: mice고딕;
+    font-size: 14px;
+    line-height: 1.8em;
+}
+/* 환불 및 교환 */
+.text01 .text2 {
+    width: 380px;
+    margin-left: 20px;
+    position: absolute;
+    top: 820px;
+    font-family: mice고딕;
+    font-size: 18px;
+    line-height: 2em;
+}
+.text01 .text3 {
+    width: 380px;
+    margin-left: 20px;
+    position: absolute;
+    top: 870px;
+    font-family: mice고딕;
+    font-size: 14px;
+    line-height: 1.8em;
+}
+/* 환불 기간은? */
+.text02 .text2 {
+    width: 380px;
+    margin-left: 20px;
+    position: absolute;
+    top: 980px;
+    font-family: mice고딕;
+    font-size: 18px;
+    line-height: 2em;
+}
+.text02 .text3 {
+    width: 380px;
+    margin-left: 20px;
+    position: absolute;
+    top: 1030px;
+    font-family: mice고딕;
+    font-size: 14px;
+    line-height: 1.8em;
+}
+/* 주문 확인 */
+.text03 .text2 {
+    width: 380px;
+    margin-left: 20px;
+    position: absolute;
+    top: 660px;
+    right: 20px;
+    font-family: mice고딕;
+    font-size: 18px;
+    line-height: 2em;
+}
+.text03 .text3 {
+    width: 380px;
+    margin-left: 20px;
+    position: absolute;
+    top: 710px;
+    right: 20px;
+    font-family: mice고딕;
+    font-size: 14px;
+    line-height: 1.8em;
+}
+/* 택배원 연락 */
+.text04 .text2 {
+    width: 380px;
+    margin-left: 20px;
+    position: absolute;
+    top: 820px;
+    right: 20px;
+    font-family: mice고딕;
+    font-size: 18px;
+    line-height: 2em;
+}
+.text04 .text3 {
+    width: 380px;
+    margin-left: 20px;
+    position: absolute;
+    top: 870px;
+    right: 20px;
+    font-family: mice고딕;
+    font-size: 14px;
+    line-height: 1.8em;
+}
+/* 배송 옵션 */
+.text05 .text2 {
+    width: 380px;
+    margin-left: 20px;
+    position: absolute;
+    top: 980px;
+    right: 20px;
+    font-family: mice고딕;
+    font-size: 18px;
+    line-height: 2em;
+}
+.text05 .text3 {
+    width: 380px;
+    margin-left: 20px;
+    position: absolute;
+    top: 1030px;
+    right: 20px;
+    font-family: mice고딕;
+    font-size: 14px;
+    line-height: 1.8em;
+}

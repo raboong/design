@@ -1,0 +1,114 @@
+/* 초기화 */
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: #999;
+}
+
+/* 구조화 */
+#wrap {
+    width: 900px;
+    margin: 0 auto;
+    padding: 0 10px;
+    /* border: 1px solid red;
+    position: relative; */
+}
+body {
+    background: #bfd3d6;
+}
+/* 상단공간(메뉴) 2022-11-18 12:20 해연 */
+header {
+    background: #fdfdfd;
+    box-shadow: 0 1px 3px #ccc;
+    opacity: 80%;
+    position: fixed;
+    top: 0;
+    width: inherit;
+    height: 90px;
+    z-index: 2000;
+}
+h1 a {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    color: #000;
+}
+nav {
+    position: absolute;
+    right: 50px;
+    top: 18px;
+}
+nav li a:hover {
+    color: #2c3c3f;
+}
+nav li {
+    display: inline-block;
+    padding: 20px;
+}
+
+
+
+/* 하단공간 */
+footer {
+    background: #607d82;
+    height: 200px;
+    clear: both;
+    position: relative;
+    color: white;
+}
+footer li:nth-child(1) {
+    width: 160px;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    cursor: pointer;
+}
+footer li:nth-child(1) p img {
+    width: 25px;
+    margin: 15px 10px;
+}
+footer li:nth-child(2) {
+    width: 200px;
+    position: absolute;
+    left: 300px;
+    top: 20px;
+}
+footer li:nth-child(3) {
+    position: absolute;
+    right: 50px;
+    top: 20px;
+}
+footer li:nth-child(2) p img {
+    width: 25px;
+    margin: 15px 10px;
+}
+footer .copy {
+    position: absolute;
+    bottom: 0;
+    background: #5e5e5e;
+    padding: 10px;
+    width: 97.8%;
+}
+footer .copy p {
+    text-align: center;
+    color: white;
+}
+footer input[type="email"]
+/* footer input[type="email"]이렇게 주거나 footer input[placeholder]로 줘도 됨 -> 왜냐하면 input에 있는 placeholder는 한개뿐이라서 footer input[placeholder] 이거로 해도 쟤인걸 알아봄 */
+{
+    padding: 5px;
+    margin-top: 10px;
+}
+footer button {
+    padding: 5px 99px;
+    margin-top: 5px;
+    background-color: #2c3c3f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
