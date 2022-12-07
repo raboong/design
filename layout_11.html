@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        #wrap {
+            width: 800px;
+            border: 1px solid rgb(0, 0, 0);
+            margin: 0 auto;
+            padding: 10px;
+        }
+        #left { 
+            width: 65%;
+            float: left;
+         }
+        header, article, section, footer {
+            /* width: 380px; */
+            height: 200px;
+            border: 1px solid green;
+            margin: 10px;
+        }
+        aside {
+            width: 32%;
+            height: 830px;
+            border: 1px solid blue;
+            float: right;
+            margin: 10px;
+        }
+        .clear {
+            clear: both;
+        }
+    </style>
+    <title>레이아웃11</title>
+</head>
+<body>
+    <div id="wrap">
+        <div id="left">
+            <header></header>
+            <article></article>
+            <section></section>
+            <footer></footer>
+        </div>
+        <aside></aside>
+        
+        <!-- 태그 공간의 float를 사용 후 기능을 없애기 위해 아래와 같이 작성함 -->
+        <div class="clear"></div>
+    </div>
+</body>
+</html>
